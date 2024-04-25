@@ -1,0 +1,406 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/titre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Raw Materials"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_light"
+            android:gravity="center" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingEnd="8dp">
+
+                <ImageView
+                    android:id="@+id/stainless"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/stainlesssteel"/>
+
+
+                <TextView
+                    android:id="@+id/paann3name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stainless Steel"/>
+                <TextView
+                    android:id="@+id/pannn3name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100 ton"/>
+                <TextView
+                    android:id="@+id/pann3name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Available"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingStart="8dp">
+
+                <ImageView
+                    android:id="@+id/pan2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/copper"/>
+
+                <TextView
+                    android:id="@+id/pottname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Copper"/>
+                <TextView
+                    android:id="@+id/pan2name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="210 ton"/>
+                <TextView
+                    android:id="@+id/pan22name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Available"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingEnd="8dp">
+
+                <ImageView
+                    android:id="@+id/aluminum"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/aluminum"/>
+
+                <TextView
+                    android:id="@+id/pan1name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aluminum"/>
+                <TextView
+                    android:id="@+id/pann1name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="180 ton"/>
+                <TextView
+                    android:id="@+id/paan1name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Available "/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingStart="8dp">
+
+                <ImageView
+                    android:id="@+id/clous"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/castiron"/>
+
+                <TextView
+                    android:id="@+id/clousname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cast Iron "/>
+                <TextView
+                    android:id="@+id/clouusname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20 ton"/>
+                <TextView
+                    android:id="@+id/cloousname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Low in stock"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingEnd="8dp">
+
+                <ImageView
+                    android:id="@+id/pantajin"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/glassss"/>
+
+                <TextView
+                    android:id="@+id/foodName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Glass"/>
+                <TextView
+                    android:id="@+id/fooodName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="200 ton"/>
+
+                <TextView
+                    android:id="@+id/ffooodName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Available"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingStart="8dp">
+
+                <ImageView
+                    android:id="@+id/wood"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/woodd" />
+
+                <!-- Nom de la pizza -->
+                <TextView
+                    android:id="@+id/woodname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wood"/>
+                <TextView
+                    android:id="@+id/wooodname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="320 ton"/>
+                <TextView
+                    android:id="@+id/wwoodname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Available"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingEnd="8dp">
+
+                <ImageView
+                    android:id="@+id/tajin"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ceramic"/>
+
+                <TextView
+                    android:id="@+id/tajinname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ceramic"/>
+                <TextView
+                    android:id="@+id/taajinname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 0 ton"/>
+                <TextView
+                    android:id="@+id/taaajinname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not available "/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingStart="8dp">
+
+                <ImageView
+                    android:id="@+id/pot1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/teflon"/>
+
+                <TextView
+                    android:id="@+id/pot1name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Teflon"/>
+                <TextView
+                    android:id="@+id/poot1name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="109 ton"/>
+                <TextView
+                    android:id="@+id/poooot1name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Available"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingEnd="8dp">
+
+                <ImageView
+                    android:id="@+id/pot2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/titanium"/>
+
+                <TextView
+                    android:id="@+id/pot2name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Titanium"/>
+                <TextView
+                    android:id="@+id/ppot2name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7 ton"/>
+                <TextView
+                    android:id="@+id/pot22name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Low in stock"/>
+
+            </LinearLayout>
+
+            <!-- Crunchy roll Sushi -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingStart="8dp">
+
+                <ImageView
+                    android:id="@+id/plasticimage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/plastic"/>
+
+                <TextView
+                    android:id="@+id/plasticname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Plastic"/>
+                <TextView
+                    android:id="@+id/pllasticname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="200 ton"/>
+
+                <TextView
+                    android:id="@+id/pallasticname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Available"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

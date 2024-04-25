@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#4CAF50"
+        android:textStyle="bold"
+
+        android:textSize="38dp"
+        android:text="FloatFry" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/stainlesssteel" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#4CAF50"
+        android:text="Look at the catalog" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "597473960428",
+    "project_id": "justtime-fc686",
+    "storage_bucket": "justtime-fc686.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597473960428:android:c80c2eec8fee10a49ae0c9",
+        "android_client_info": {
+          "package_name": "fr.android.just_in_time"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAzGkTzjLLh5xiXQQrMUvwT7myDtH1rZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
